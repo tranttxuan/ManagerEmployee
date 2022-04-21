@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "xuan",
+    "email": "email.xuan@gmail.com",
+    "jobTitle": "developer",
+    "phone": "0700000000",
+    "imageUrl": "http://bootdey.com/img/Content/avatar/avatar1.png",
+    "employeeCode": "generated-code-example-1"
+  },
+  {
+    "id": 2,
+    "name": "quang",
+    "email": "email.quang@gmail.com",
+    "jobTitle": "researcher",
+    "phone": "0700000000",
+    "imageUrl": "http://bootdey.com/img/Content/avatar/avatar2.png",
+    "employeeCode": "generated-code-example-2"
+  },
+  {
+    "id": 3,
+    "name": "minh",
+    "email": "email.minh@gmail.com",
+    "jobTitle": "tech lead",
+    "phone": "0700000000",
+    "imageUrl": "http://bootdey.com/img/Content/avatar/avatar3.png",
+    "employeeCode": "generated-code-example-3"
+  },
+  {
+    "id": 4,
+    "name": "pham",
+    "email": "email.pham@gmail.com",
+    "jobTitle": "designer",
+    "phone": "0700000000",
+    "imageUrl": "http://bootdey.com/img/Content/avatar/avatar4.png",
+    "employeeCode": "generated-code-example-4"
+  },
+  {
+    "id": 5,
+    "name": "tran",
+    "email": "email.tran@gmail.com",
+    "jobTitle": "PO",
+    "phone": "0700000000",
+    "imageUrl": "http://bootdey.com/img/Content/avatar/avatar5.png",
+    "employeeCode": "generated-code-example-5"
+  }
+]
