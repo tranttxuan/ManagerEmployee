@@ -9,7 +9,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -17,10 +16,11 @@ import java.io.IOException;
 @Configuration
 public class EmployeeConfig {
   
-  @Bean CommandLineRunner commandLineRunner(EmployeeRepository repository) {
+  @Bean
+  CommandLineRunner commandLineRunner(EmployeeRepository repository) {
     return args -> {
       JSONParser jsonParser = new JSONParser();
-      try (FileReader reader = new FileReader("/Users/xuantranthithanh/Documents/JAVA/SPRING_BOOT/manageEmployee/src/main/java/com/example/manageemployee/repository/employeesBin.json")) {
+      try (FileReader reader = new FileReader("/Users/xuantranthithanh/Documents/JAVA/SPRING_BOOT/employee-management/ManagerEmployee/src/main/java/com/example/manageemployee/repository/employeesBin.json")) {
         Object obj = jsonParser.parse(reader);
         JSONArray employeeList = (JSONArray) obj;
         for (Object employee : employeeList) {
