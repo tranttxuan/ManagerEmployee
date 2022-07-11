@@ -13,6 +13,7 @@ public class Employee implements Serializable {
   private String email;
   private String jobTitle;
   private String phone;
+  @Column(length = 65555)
   private String imageUrl;
   @Column(nullable = false, updatable = false)
   private String employeeCode;
